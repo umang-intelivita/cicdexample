@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pha-ha-Iuo">
-                                <rect key="frame" x="152.66666666666666" y="390.33333333333331" width="88" height="71.666666666666686"/>
+                                <rect key="frame" x="152.66666666666666" y="364.66666666666669" width="88" height="123"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1D-BZ-ZtE">
                                         <rect key="frame" x="0.0" y="0.0" width="88" height="20.333333333333332"/>
@@ -26,11 +26,19 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXV-lX-dga">
-                                        <rect key="frame" x="0.0" y="37.333333333333371" width="88" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="37.333333333333314" width="88" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Crash"/>
                                         <connections>
                                             <action selector="btnCrashAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EBJ-od-CL5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bp7-XE-bKX">
+                                        <rect key="frame" x="0.0" y="88.666666666666629" width="88" height="34.333333333333343"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Crash 2"/>
+                                        <connections>
+                                            <action selector="btnCrashAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J0m-hr-lIL"/>
                                         </connections>
                                     </button>
                                 </subviews>
